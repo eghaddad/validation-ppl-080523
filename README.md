@@ -1,6 +1,6 @@
-# Validation App - Pipeline PPL-20260308-080523
+# Validation App - PPL-20260308-080523
 
-Minimal Node.js Express validation service for BUILD pipeline testing.
+Minimal Node.js Express application for BUILD pipeline validation.
 
 ## Endpoints
 
@@ -9,9 +9,10 @@ Minimal Node.js Express validation service for BUILD pipeline testing.
 
 ## Deployment
 
-- **Platform**: Railway
-- **Project ID**: 4dacd0b5-4239-4fb6-89c4-b47103e5d512
-- **Domain**: pipeline-ppl-080523.agentifai.io
+- **Railway Project ID**: 4dacd0b5-4239-4fb6-89c4-b47103e5d512
+- **Custom Domain**: pipeline-ppl-080523.agentifai.io
+- **Pipeline**: PPL-20260308-080523
+- **Ticket**: AGE-867
 
 ## Local Development
 
@@ -24,12 +25,6 @@ npm start
 
 ```bash
 npm test
-curl http://localhost:8080/health
 ```
 
-## Pipeline Context
-
-- **Ticket**: AGE-867
-- **Pipeline ID**: PPL-20260308-080523
-- **Created**: 2026-03-08
-- **Purpose**: Validate BUILD pipeline infrastructure deployment
+Health check: `curl http://localhost:8080/health`
