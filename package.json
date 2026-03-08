@@ -1,0 +1,19 @@
+{
+  "name": "validation-ppl-080523",
+  "version": "1.0.0",
+  "description": "Validation app for BUILD pipeline PPL-20260308-080523",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test.js"
+  },
+  "keywords": ["validation", "pipeline", "agentifai"],
+  "author": "Hope <hopebotelias@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
